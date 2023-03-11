@@ -1,0 +1,98 @@
+body {
+  margin: 0 auto;
+  width: 500px;
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
+}
+
+header {
+  margin-top: 1.25em;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  width: 1.875em;
+}
+
+.top-logo {
+  width: 3.75em;
+}
+
+.main-imgDiv {
+  margin-top: 1em;
+  position: relative;
+}
+
+.main-img {
+  width: 31.25em;
+  border-radius: 10px;
+}
+
+.badge {
+  top: 50;
+  left: 25;
+  position: absolute;
+  width: 150px;
+  transform: rotate(330deg);
+  display: block; /*If display : block */
+}
+
+.dog-name,
+.dog-description {
+  position: absolute;
+}
+
+.dog-name {
+  bottom: 30;
+  left: 10;
+  color: #f8f8f8;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.dog-description {
+  bottom: -15;
+  left: 10;
+  font-size: 1.5rem;
+  color: #b7b7b7;
+}
+
+.action {
+  display: flex;
+  width: 200px;
+  margin: 0 auto;
+  margin-top: 1em;
+}
+
+.action-bg {
+  background-color: #ffffff;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 1px 1px 5px #999;
+  margin: 0 auto;
+}
+
+.changeBg {
+  background-color: #ffffff;
+}
+
+.action-like {
+  margin-top: 1.2em;
+  margin-left: 1em;
+}
+.action-dislike {
+  margin-top: 1.2em;
+  margin-left: 1.2em;
+  width: 25px;
+}
+
+.finish {
+  text-align: center;
+  margin: 300 auto;
+}
